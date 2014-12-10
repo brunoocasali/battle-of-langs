@@ -1,7 +1,7 @@
 #utf-8
 
 # To run just execute:
-# ruby morse_code.rb
+# ~$ ruby morse_code.rb
 # author: http://github.com/brunoocasali - @brunoocasali - http://brunocasali.wordpress.com
 
 class MorseCode
