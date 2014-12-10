@@ -7,16 +7,16 @@
  */ 
  
 class MorseCode {
-    String planText, morseCode
+    String plainText, morseCode
    
     MorseCode(String text){
       if(text == null) {
-        this.planText = 'hello world'
+        this.plainText = 'hello world'
       } else {
-        this.planText = text.toLowerCase()
+        this.plainText = text.toLowerCase()
       }
       
-      this.morseCode = this.planText
+      this.morseCode = this.plainText
     }
     
     String convert() {
@@ -37,5 +37,5 @@ def word = System.console().readLine 'What did you want to transform to morse co
 //code to convert
 def code = new MorseCode(word)
 code.convert()
-println "YOUR WORD IN PLAIN TEXT: \t ${code.planText}"
+println "YOUR WORD IN PLAIN TEXT: \t ${code.plainText}"
 println "YOUR WORD IN MORSE CODE: \t ${code.morseCode}"
