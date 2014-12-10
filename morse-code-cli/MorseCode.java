@@ -6,7 +6,8 @@ import java.util.Map;
  * ~$ javac MorseCode.java
  * ~$ java MorseCode
  *
- * @author http://brunocasali.wordpress.com - http://github.com/brunoocasali
+ * @author http://github.com/brunoocasali - twitter: @brunoocasali
+ *         http://brunocasali.wordpress.com
  */ 
 
 public class MorseCode {
