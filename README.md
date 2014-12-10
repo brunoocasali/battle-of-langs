@@ -3,6 +3,14 @@ Battle of Langs
 
 *The same algorithm in all of languages! Did you can improve that ?*
 
+####About!
+
+- For Frameworks battles use the directory frameworks!
+	- And if you make the battle fork first, you need to provide a front-end part (or no!)
+
+- For CLI applications... Just do that **LOL**
+
+
 ###Morse Test: -- --- .-. ... .  - . ... -
 
 
@@ -19,7 +27,6 @@ This test consists in:
  
  - Receber de entrada um valor em texto plano.
  - Devolver a saída em código morse.
-
 
 
 ## To Forks...
