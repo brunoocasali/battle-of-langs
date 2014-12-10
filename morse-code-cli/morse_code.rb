@@ -20,9 +20,9 @@ class MorseCode
 			 'y' => '-.--', 'z' => '--..'
 		}
 		
-		keys.each do |k, v|
-			@plan_text.gsub!(k, "#{v} ")
-	  end
+		keys.each do |k, v| 
+		  @plan_text.gsub!(k, "#{v} ")
+		end
 	  
 		@plan_text
 	end
