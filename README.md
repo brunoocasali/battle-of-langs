@@ -1,25 +1,25 @@
 The Lang Start!
-===
+==
 
-The same algorithm in all of languages! Did you can improve that ?
-===
+*The same algorithm in all of languages! Did you can improve that ?*
 
-MORSE TEST
-====
+Morse Test: -- --- .-. ... .  - . ... -
+=====
 
-- EN-US
-========
+#####- EN-US
+
 This test consists in:
 
 - From input console a text plan value.
 - Output the text in morse code.
 
-- PT-BR
-=======
+#####- PT-BR
+
  Este é um teste super simples, que consiste:
  
  - Receber de entrada um valor em texto plano.
  - Devolver a saída em código morse.
+
 
 
 ## To Forks...
