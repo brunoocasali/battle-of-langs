@@ -4,10 +4,10 @@
 #         http://brunocasali.wordpress.com
 
 class MorseCode
-	attr_reader :plan_text
+	attr_reader :plan_text, :morse_code
 
 	def initialize(plan_text = 'Hello World')
-	  @plan_text = plan_text.downcase!
+	  @morse_code = @plan_text = plan_text.downcase!
 	end
 
 	def convert
@@ -19,15 +19,14 @@ class MorseCode
 		}
 		
 		keys.each do |k, v| 
-		  @plan_text.gsub!(k.to_s, "#{v} ")
+		  @morse_code.gsub!(k.to_s, "#{v} ")
 		end
 	end
 end
 
 puts 'What did you want to transform to morse code? '
-word = gets.chomp
+c = MorseCode.new gets.chomp
 
-puts "YOUR WORD IN PLAIN TEXT: \t #{word}"
-c = MorseCode.new word
+puts "YOUR WORD IN PLAIN TEXT: \t #{c.plan_text}"
 c.convert
-puts "YOUR WORD IN MORSE CODE: \t #{c.plan_text}"
+puts "YOUR WORD IN MORSE CODE: \t #{c.morse_code}"

@@ -1,4 +1,3 @@
-
 /* To run just execute:
  * ~$ groovyc MorseCode.groovy
  * ~$ groovy MorseCode
@@ -8,20 +7,19 @@
  */ 
  
 class MorseCode {
-    String plainText
-    public String morseCode
-    
+    String planText, morseCode
+   
     MorseCode(String text){
-      this.plainText = text
+      if(text == null) {
+        this.planText = 'hello world'
+      } else {
+        this.planText = text.toLowerCase()
+      }
+      
+      this.morseCode = this.planText
     }
     
     String convert() {
-      
-      if(this.plainText == null) {
-        this.plainText = 'hello world'
-      } else {
-        this.plainText = plainText.toLowerCase()
-      }
       
       def keys = [ a: '.-', b: '-...', c: '-.-.', d: '-..', e: '.', f: '..-.', 
 			   g: '--.', h: '....', i: '..', j: '.---',	k: '-.-', l: '.-..', m: '--',
@@ -30,17 +28,14 @@ class MorseCode {
 			]
   		 
   		 for (entry in keys) {
-         this.plainText = this.plainText.replace(entry.key, "${entry.value} ")
-       }
-       this.morseCode = this.plainText        
+         this.morseCode = this.morseCode.replace(entry.key, "${entry.value} ")
+       }       
     }
 }
 
 def word = System.console().readLine 'What did you want to transform to morse code? '
-println "YOUR WORD IN PLAIN TEXT: \t $word"
-
 //code to convert
 def code = new MorseCode(word)
 code.convert()
-
+println "YOUR WORD IN PLAIN TEXT: \t ${code.planText}"
 println "YOUR WORD IN MORSE CODE: \t ${code.morseCode}"
