@@ -28,34 +28,34 @@ public class MorseCode {
   }
 
   public static void convert(){
-  	HashMap<String, String> keys = new HashMap<String, String>();
+  	HashMap<String, String> alphabet = new HashMap<String, String>();
 
-		keys.put("a", ".-");
-		keys.put("b", "-...");
-		keys.put("c", "-.-.");
-		keys.put("d", "-..");
-		keys.put("e", ".");
-		keys.put("f", "..-.");
-		keys.put("g", "--.");
-		keys.put("h", "....");
-		keys.put("i", "..");
-		keys.put("j", ".---");
-		keys.put("k", "-.-");
-		keys.put("l", ".-..");
-		keys.put("m", "--");
-		keys.put("n", "-.");
-		keys.put("o", "---");
-		keys.put("p", ".--.");
-		keys.put("q", "--.-");
-		keys.put("r", ".-.");
-		keys.put("s", "...");
-		keys.put("t", "-");
-		keys.put("u", "..-");
-		keys.put("v", "...-");
-		keys.put("w", ".--");
-		keys.put("x", "-..-");
-		keys.put("y", "-.--");
-		keys.put("z", "--..");
+		alphabet.put("a", ".-");
+		alphabet.put("b", "-...");
+		alphabet.put("c", "-.-.");
+		alphabet.put("d", "-..");
+		alphabet.put("e", ".");
+		alphabet.put("f", "..-.");
+		alphabet.put("g", "--.");
+		alphabet.put("h", "....");
+		alphabet.put("i", "..");
+		alphabet.put("j", ".---");
+		alphabet.put("k", "-.-");
+		alphabet.put("l", ".-..");
+		alphabet.put("m", "--");
+		alphabet.put("n", "-.");
+		alphabet.put("o", "---");
+		alphabet.put("p", ".--.");
+		alphabet.put("q", "--.-");
+		alphabet.put("r", ".-.");
+		alphabet.put("s", "...");
+		alphabet.put("t", "-");
+		alphabet.put("u", "..-");
+		alphabet.put("v", "...-");
+		alphabet.put("w", ".--");
+		alphabet.put("x", "-..-");
+		alphabet.put("y", "-.--");
+		alphabet.put("z", "--..");
 
 		if(plainText == null){
 		  plainText = "hello world";
@@ -63,7 +63,7 @@ public class MorseCode {
 		  plainText = plainText.toLowerCase();
     }
     
-    for (Map.Entry<String, String> entry : keys.entrySet())
+    for (Map.Entry<String, String> entry : alphabet.entrySet())
     {
       plainText = plainText.replace(entry.getKey(), entry.getValue() + " ");
     }
