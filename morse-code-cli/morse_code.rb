@@ -2,6 +2,7 @@
 
 # To run just execute:
 # ruby morse_code.rb
+# author: http://github.com/brunoocasali - @brunoocasali - http://brunocasali.wordpress.com
 
 class MorseCode
 	attr_reader :plan_text
@@ -30,11 +31,10 @@ end
 puts "What did you want to transform to morse code? "
 word = gets.chomp
 
-puts "YOUR WORD IN PLAIN TEXT:      #{word}"
+puts "YOUR WORD IN PLAIN TEXT: \t #{word}"
 c = MorseCode.new word
 c.convert
-puts "YOUR WORD IN MORSE CODE:      #{c.plan_text}"
-
+puts "YOUR WORD IN MORSE CODE: \t #{c.plan_text}"
 
 
 
