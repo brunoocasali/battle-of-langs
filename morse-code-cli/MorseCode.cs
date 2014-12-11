@@ -1,6 +1,14 @@
 using System;
 using System.Collections.Generic;
 
+
+/* To run just execute:
+ * ~$ mcs MorseCode.cs
+ * ~$ mono MorseCode.exe
+ * author: http://github.com/brunoocasali - twitter: @brunoocasali
+         http://brunocasali.wordpress.com
+*/
+
 public class MorseCode {
   public static String PlainText { get; set; }
   public static String MorseText { get; set; }
