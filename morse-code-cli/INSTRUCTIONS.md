@@ -2,14 +2,14 @@
 
 #####- EN-US
 
-This test consists in:
+This challenge consists in:
 
 - From input console a text plan value.
 - Output the text in morse code.
 
 #####- PT-BR
 
- Este é um teste super simples, que consiste:
+ Este é um desafio super simples, que consiste:
  
  - Receber de entrada um valor em texto plano.
  - Devolver a saída em código morse.
