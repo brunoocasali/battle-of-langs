@@ -1,3 +1,0 @@
-# MORSE CODE
-
-Hello World!

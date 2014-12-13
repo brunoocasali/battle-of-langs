@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-
 /* To run just execute:
  * ~$ mcs MorseCode.cs
  * ~$ mono MorseCode.exe

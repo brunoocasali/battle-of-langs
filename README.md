@@ -1,39 +1,39 @@
 Battle of Langs
 =
 
-*The same algorithm in all of languages! Did you can improve that ?*
+*The same algorithm in all of languages! Can you add/improve a lang?*
 
-####About!
+#### How it works?
 
-- For Frameworks battles use the directory frameworks!
-	- And if you make the battle fork first, you need to provide a front-end part (or no!)
+You need to create a new folder and put your challenge here.
+Each folder should contain only one algorithm, written in various languages!
+See the `base-cli` or `base-framework` folders to write your own challenge!
 
-- For CLI applications... Just do that **LOL**
+### Getting Started
+
+##### For Frameworks *(Django, Ruby on Rails)* 
+- Copy the `base-frameworks` folder
+- Put your *best* explanation following the base in the markdown archive `INSTRUCTIONS.md` to anyone understand wtf you want!
+- If you want, and it's better! Do the front-end for all to follow the same pattern! and put them inside `my-framework-challenge/front-end`
+- Edit this archive adding on the **So Far** heading your challenge!
+
+##### For CLI apps *(Console stuff)*
+- Copy the `base-cli` folder
+- Put your *best* explanation following the base in the markdown archive `INSTRUCTIONS.md` to anyone understand wtf you want!
+- Edit this archive adding on the **So Far** heading your challenge!
 
 
-###Morse Test: -- --- .-. ... .  - . ... -
+#### So far
+- Frameworks
 
-
-#####- EN-US
-
-This test consists in:
-
-- From input console a text plan value.
-- Output the text in morse code.
-
-#####- PT-BR
-
- Este é um teste super simples, que consiste:
- 
- - Receber de entrada um valor em texto plano.
- - Devolver a saída em código morse.
-
+- CLI apps!
+ 	- Morse Code - CLI version! by: @brunoocasali
 
 ## To Forks...
 
 Create your own test (algorithm) and make on your prefered language, pull to this repo and wait anyone beat that!
 
 
- 
-	
-	
+### Did you understand? 
+
+If no contact: [Twitter](http://twitter.com/brunoocasali) or [Email](brunoocasali@gmail.com) :smile:
