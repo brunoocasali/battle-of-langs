@@ -2,7 +2,7 @@ section .data
 msg     db      'morse converted: ', 0AH
 len     equ     $-msg
 array   TIMES   20  DW  ''
-
+;not working yet
 section .text
 global  _start
 _start: mov     edx, len
