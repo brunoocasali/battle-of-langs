@@ -28,6 +28,7 @@ See the `base-cli` or `base-framework` folders to write your own challenge!
 
 - CLI apps!
  	- Morse Code - CLI version! by: @brunoocasali
+ 	- The MongoDB C.R.U.D in console! by: @brunoocasali
 
 ## To Forks...
 
