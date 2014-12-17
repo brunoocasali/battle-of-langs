@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bson (1.11.1)
+    mongo (1.11.1)
+      bson (= 1.11.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mongo
