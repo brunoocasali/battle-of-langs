@@ -1,34 +1,17 @@
-module CRUD
-  class Product
-    include Mongo
-
-    attr_accessor :name, :value, :date
-
-    # Validations.
-    validates_presence_of :name, :value
-    
-    def initialize(name = 'Erva-Mate', value = 31.5, date = Date.new)
-      @name = name
-      @value = value
-      @date = date
-    end
-        
-    def add
-      @connection = CRUD::Connection.new
-      @connection.collection.insert(self)
-    end
-    
-    def remove
-      
-    end
-    
-    def select
-      
-    end
-    
-    def update
-      
-    end
-    
+class Product
+  attr_accessor :name, :value, :date, :_id
+  
+  def initialize(date = Time.new)
+    @date = date
   end
+      
+  def to_hash
+    hash = {}
+    instance_variables.each do |var| 
+      hash[var.to_s.delete("@")] = instance_variable_get(var)
+    end
+      
+    hash
+  end
+  
 end
