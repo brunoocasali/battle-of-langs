@@ -25,7 +25,7 @@ module CRUD
     
     def self.update(old_hash, new_hash)
       connection = CRUD::Connection.new
-      connection.collection.update(old_hash, new_hash)
+      connection.collection.update(old_hash, {"$set" => new_hash})
     end
   end
 end

@@ -35,8 +35,8 @@ until option == 0 || option > 4
     CRUD::ProductDAO.select
     
   elsif option == 4
-    old_product = {date: Time.new}
-    new_product = {date: Time.new}
+    old_product = {}
+    new_product = {}
     
     puts 'Old name of product: '
     old_product['name'] = gets.chomp!
