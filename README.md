@@ -25,10 +25,10 @@ See the `base-cli` or `base-framework` folders to write your own challenge!
 
 #### So far
 - Frameworks
-  - Only read a Feed RSS           - by: @brunoocasali
+  - [Only read a Feed RSS](https://github.com/brunoocasali/battle-of-langs/tree/master/framework-apps/xml-reading) - by: @brunoocasali
 - CLI apps!
- 	- The Morse Code                 - by: @brunoocasali
- 	- The MongoDB C.R.U.D in console - by: @brunoocasali
+ 	- [The Morse Code](https://github.com/brunoocasali/battle-of-langs/tree/master/cli-apps/morse-code) - by: @brunoocasali
+ 	- [The MongoDB C.R.U.D in console](https://github.com/brunoocasali/battle-of-langs/tree/master/cli-apps/mongodb-crud) - by: @brunoocasali
 
 ## To Forks...
 
