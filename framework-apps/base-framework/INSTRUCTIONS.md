@@ -1,12 +1,12 @@
 # Challenge: The Master Greatest Fucker Name In The Whole World!
 
-#####- In English PLEASE!
+#####- EN-US
 
  Describe here wtf is your challenge, do the best pls!!:
  
  - Below - in steps what to do!
  - Lorem ipsum!
- - Foo - bar                                 
+ - Foo - bar
  - Anything important here... 
 
 #####- Language Two *(optional)*

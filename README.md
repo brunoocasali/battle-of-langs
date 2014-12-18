@@ -25,10 +25,10 @@ See the `base-cli` or `base-framework` folders to write your own challenge!
 
 #### So far
 - Frameworks
-
+  - Only read a Feed RSS           - by: @brunoocasali
 - CLI apps!
- 	- Morse Code - CLI version! by: @brunoocasali
- 	- The MongoDB C.R.U.D in console! by: @brunoocasali
+ 	- The Morse Code                 - by: @brunoocasali
+ 	- The MongoDB C.R.U.D in console - by: @brunoocasali
 
 ## To Forks...
 
