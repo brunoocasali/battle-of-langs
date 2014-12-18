@@ -1,0 +1,18 @@
+<h1>Leitor de RSS!</h1>
+
+<div style="margin-bottom: 5%;">
+  <h3><%= @feed.channel.title -%></h3>
+  <%= image_tag @feed.channel.image.url, style: 'float:right' %>
+</div>
+<ol>
+  <% @feed.items.each_with_index do |item, i| -%>
+    <%= render partial: 'item', locals: {item: item} -%>
+  <% end -%>
+</ol>
+
+<hr />
+
+Built with <strong>Ruby on Rails 4.1</strong>
+<label style="float:right">
+ Powered by: <%= image_tag @feed.channel.image.url %>
+</label>

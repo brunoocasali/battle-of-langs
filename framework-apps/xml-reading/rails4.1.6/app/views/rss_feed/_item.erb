@@ -1,0 +1,9 @@
+<li>  
+  <p>
+    <%= link_to "#{item.title}", item.link %> 
+    <span style="float:right"> 
+      <%= item.pubDate.strftime("%d of %B, %Y") %>
+    </span>
+  </p>
+  <p><%= raw(item.description) %></p>
+</li>
